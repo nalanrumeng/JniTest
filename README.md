@@ -6,6 +6,6 @@
    ndk {   
               moduleName 'hello'  
               abiFilters "armeabi", "armeabi-v7a","x86"  
-              ldLibs "log"     //Android Studio要加上，否则无法识别Log  
+              `ldLibs "log"`     //Android Studio要加上这句代码，否则无法识别Log  
          }
  
